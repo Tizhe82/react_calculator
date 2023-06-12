@@ -1,13 +1,72 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box ;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  height: 100vh;
+  background: #f4f4f4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.display{
+  height: 6rem;
+  margin-bottom:2rem;
+  background: #F0FAEA;
+}
+
+.wrapper{
+  background: #A0D0EA;
+  width: 20rem;
+  padding: 1rem;
+  margin-top: 4rem;
+  border-radius: 1rem;
+  box-shadow: 0px 5px 15px -3px rgba(0,0,0,0.1);
+}
+
+.boxButton{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: .5rem;
+}
+
+.button{
+  background: #e9f0f4;
+  height: 3.5rem;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: #242424;
+  border: #e9f0f4;
+  font-size: 1.5rem;
+}
+
+.button:hover {
+  border: 2px dotted #242424;
+}
+
+.equals {
+  background: #08f12f;
+  
+}
+
+.clear{
+  background: #FD9FA9;
+}
+
+.opt{
+  background: #f79505;
+}
+
+.operator-display {
+  font-size: 24px; /* Adjust the font size as needed */
 }
