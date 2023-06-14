@@ -20,7 +20,8 @@ Create a basic calculator app. Multiple operators, clear the buffer
     npm start
 ``
 
-localhost:8080
+localhost:3000
+
 
 
 ## Usage
