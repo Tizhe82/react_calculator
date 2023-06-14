@@ -2,9 +2,9 @@
 ***
 A minimalistic styled basic calculating React app
 
-[Live Demo]()
+[Live Demo](https://riactcalculator.netlify.app/)
 
-<img src="" />
+<img src="[![Netlify Status](https://api.netlify.com/api/v1/badges/7f9c6de7-4654-4f8f-8ee9-214821702869/deploy-status)](https://app.netlify.com/sites/riactcalculator/deploys)" />
 
 
 ## Task
@@ -24,7 +24,9 @@ localhost:8080
 
 
 ## Usage
-There is no usage guide
+on the calculator 
+press any functionality you want 
+e.g 2*8 = 16 
 
 
 ### The Core Team
